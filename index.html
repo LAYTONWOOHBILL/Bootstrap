@@ -9,6 +9,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- css file -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <title>Ristorante Con Fusion</title>
 </head>
@@ -17,7 +19,8 @@
     <!--  -->
     <header class = "jumbotron">
         <div class = "container">
-            <div class = "row">
+            <!--apply css folder class -->
+            <div class = "row row-header">
                 <!--Applying column classes within each row , when col extra small screen will cover all columns or in small screen will cover 6 colunms-->
                 <div class = "col-12 col-sm-6">
                     <h1>Ristorante con Fusion</h1>
@@ -32,7 +35,8 @@
     <!-- Using a Container class, We use the container class to keep content within a fixed width on the screen, determined by the size of the screen.  -->
     <div class= "container">
         <!-- Dividing the content into rows -->
-        <div class = "row">
+        <!--apply css folder class and center the item-->
+        <div class = "row row-content align-items-center">
             <!-- Using Order with column layout classes -->
             <!-- When extra small screen will stack on top. For other screen will put on last order-->
             <div class = "col-12 col-sm-4 order-sm-last col-md-3">
@@ -45,8 +49,8 @@
             </div>
         </div>
 
-
-        <div class = "row">
+        <!--apply css folder class and center the item-->
+        <div class = "row row-content align-items-center ">
             <div class = "col-12 col-sm-4  col-md-3">
                 <h3>This Month's Promotions</h3>
             </div>
@@ -56,7 +60,8 @@
             </div>
         </div>
 
-        <div = class = "row" >
+        <!--apply css folder class and center the item-->
+        <div class = "row row-content align-items-center" >
             <div class = "col-12 col-sm-4 order-sm-last col-md-3">
                 <h3>Meet our Culinary Specialists</h3>
             </div>
@@ -67,14 +72,15 @@
             </div>
         </div>
     </div>
-
-    <footer>
+    <!--apply css folder class -->
+    <footer class="footer">
         <div class = "container">
             <div class = "row"> 
                 <!-- Using Offset with column layout classes, Apply all the screen size-->         
                 <div class = "col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
-                    <ul>
+                    <!--apply list styles-->
+                    <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Menu</a></li>
@@ -92,8 +98,10 @@
 		              Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
 		           </address>
                 </div>
-                <div class = "col-12 col-sm-4">
-                    <div>
+                <!--apply Vertically Centering the Content-->
+                <div class = "col-12 col-sm-4 align-self-center">
+                    <!--apply Center link-->
+                    <div class="text-center">
                         <a href="http://google.com/+">Google+</a>
                         <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
                         <a href="http://www.linkedin.com/in/">LinkedIn</a>
@@ -103,7 +111,8 @@
                     </div>
                 </div>
            </div>
-           <div class = "row">             
+           <!--Horizontally Centering the Content-->
+           <div class = "row justify-content-center">             
                 <div class ="col-auto">
                     <p>© Copyright 2018 Ristorante Con Fusion</p>
                 </div>

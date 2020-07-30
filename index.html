@@ -119,7 +119,6 @@
 
 
 
-
         <div id="ReserveTableModal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg" role="content">
                 <!-- Modal content-->
@@ -429,41 +428,7 @@
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-<!-- jQuery -->
-<script>
-    $(document).ready(function(){
-        $("#mycarousel").carousel( { interval: 2000} );
-            
-        $("#carouselButton").click(function(){
-            if ($("#carouselButton").children("span").hasClass('fa-pause')) {
-                $("#mycarousel").carousel('pause');
-                $("#carouselButton").children("span").removeClass('fa-pause');
-                $("#carouselButton").children("span").addClass('fa-play');
-            }
-            else if ($("#carouselButton").children("span").hasClass('fa-play')){
-                $("#mycarousel").carousel('cycle');
-                $("#carouselButton").children("span").removeClass('fa-play');
-                $("#carouselButton").children("span").addClass('fa-pause');                    
-            }
-        });
-    });
-</script>
-<!-- jQuery End -->
-
-<!-- jQuery -->
-<script>
-    $(document).ready(function(){
-
-        $("#LoginButton").click(function(){
-            $('#loginModal').modal('show')
-        });
-        $("#ReserveTableModalButton").click(function(){
-            $('#ReserveTableModal').modal('show')
-        });
-     });
-    </script>
-<!-- jQuery End -->
+<script src="js/scripts.js"></script>
 
 </body>
 

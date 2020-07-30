@@ -20,7 +20,7 @@
 	padding: 70px 30px 70px 30px;
 	margin: 0px auto;
 	background: #9575CD;
-	color:floralwhite
+	color:floralwhite;
 }
 address{
 	front-size:80%;
@@ -59,8 +59,18 @@ body{
     left: 0;
     min-height: 300px;
 }
+
 .modal{
 	color:black;
+}
+
+.modal-header{
+	background-color: #512DA8;
+	color:floralwhite;
+}
+
+.modal-body{
+	background-color: #D1C4E9;
 }
 
 #carouselButton {
